@@ -1,0 +1,98 @@
+a {
+  color: rgb(63, 59, 59);
+}
+
+div {
+  background-color: rgb(128, 179, 255) (228, 170, 170);
+  color: rgb(0, 0, 0);
+  font-family: "Times New Roman", Times, serif;
+}
+.card-body {
+  background: rgb(253, 255, 255);
+}
+body {
+  background: rgb(245, 237, 240);
+  background: radial-gradient(
+    circle,
+    rgba(245, 237, 240, 0) 0%,
+    rgb(170, 233, 148) 100%
+  );
+}
+.btn-primary {
+  background-color: rgb(247, 247, 130);
+  color: rgb(63, 59, 59);
+  border-radius: 5px;
+  margin-bottom: 5px;
+  padding: 10px 20px 10px 20px;
+}
+
+.btn-primary:hover {
+  background-color: goldenrod;
+}
+
+.current-city {
+  font-size: 35px;
+  font-weight: 900;
+  margin: 20px;
+}
+.current-details {
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 16px;
+  font-weight: 400px;
+  margin: 20px auto auto 20px;
+}
+
+.current-weather {
+  display: flex;
+  font-size: 50px;
+  color: blueviolet;
+}
+
+.current-temperature-icon {
+  margin: 40px 20px 80px 50px;
+  font-size: 20px;
+  margin-right: 0px;
+}
+
+.current-temperature {
+  position: relative;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.current-temperature-unit {
+  font-size: 25px;
+  position: relative;
+  top: -25px;
+}
+
+footer {
+  text-align: center;
+  color: rgb(3, 5, 3);
+  margin: 0px auto 10px auto;
+  max-width: 100%;
+  max-height: 40%;
+}
+
+.weather-forecast {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px auto 60px auto;
+}
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.5;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.6;
+}
+
+.weather-forecast-temperatures {
+  font-size: 13px;
+  font-family: "Times New Roman", Times, serif;
+}
+.weather-forecast-icon {
+  width: 50px;
+  height: 50px;
+}
